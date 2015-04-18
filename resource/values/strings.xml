@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GADSoccer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cerca">Cerca</string>
+
+    <!-- <string name="host">http://172.18.10.175:8080/serverGAD/</string> -->
+    <string name="host">http://opengad-playersdata.rhcloud.com/</string>
+    <string name="title_activity_profilo_giocatore">ProfiloGiocatore</string>
+    <string name="nome">Nome</string>
+    <string name="not">...</string>
+    <string name="numeroMaglia">Numero Maglia</string>
+    <string name="valutazioneGenerale">Valutazione Generale</string>
+    <string name="API_KEY">AIzaSyApYbM-sxw_QFMGYF2lem72Q_ox10GBiNc</string>
+    <string name="club">Club</string>
+    <string name="datanascita">Data di Nascita</string>
+    <string name="datanascita2">Data Nascita (Età)</string>
+    <string name="nazionalita">Nazionalità</string>
+    <string name="altezzapeso">Altezza, Peso</string>
+    <string name="ruolo">Ruolo</string>
+    <string name="piede">Piede Preferito</string>
+    <string name="valutazione">Valutazione</string>
+    <string name="procuratore">Procuratore:</string>
+    <string name="inrosa">In rosa dal:</string>
+    <string name="scadenza">Scadenza</string>
+    <string name="proprietario">Proprietario: </string>
+    <string name="scadProprietario">Scadenza Proprietario:</string>
+    <string name="valoreMercato">Valore di mercato:</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="profilo">Profilo</string>
+    <string name="valori">Valori</string>
+    <string name="biografia">Biografia</string>
+    <string name="daticontrattuali">Dati Contrattuali</string>
+    <string name="video">Video</string>
+    <string name="palmares">Palmares</string>
+    <string name="news">News</string>
+    <string name="title_activity_valori">ValoriActivity</string>
+
+    <string-array name="qualitapaortiere">
+        <item>Physical Strength</item>
+        <item>Covering</item>
+        <item>Strength in the Air</item>
+        <item>Long-ball Accuracy</item>
+        <item>Speed e Agility</item>
+        <item>Marauding</item>
+        <item>Handling High Balls</item>
+        <item>1-on-1</item>
+        <item>Outfield Skills</item>
+        <item>Consistency</item>
+        <item>Free Kick</item>
+        <item>Corner Kick</item>
+        <item>Penalties</item>
+        <item> Attacking Prowess</item>
+        <item>Ball Control</item>
+        <item>Dribbling</item>
+        <item>Low Pas</item>
+        <item>Lofted Pass</item>
+        <item>Finishing</item>
+        <item>Place Kicking</item>
+        <item>Swerve</item>
+        <item>Header</item>
+        <item>Defensive Prowess</item>
+        <item>Ball Winning</item>
+        <item>Kicking Power</item>
+        <item>Speed</item>
+        <item>Explosive Power</item>
+        <item>Body Balance</item>
+        <item>Jump</item>
+        <item>Stamina</item>
+        <item>Goalkeeping</item>
+        <item>Saving</item>
+        <item>Form</item>
+        <item>Injury Resistance</item>
+        <item>Weak Foot Usage</item>
+        <item>Weak Foot Accuracy</item>
+        <item>Overall Rating</item>
+    </string-array>
+    <string-array name="qualitaother">
+        <item>Scoring Instinct</item>
+        <item>Header</item>
+        <item>Ball Retention</item>
+        <item>Elusiveness</item>
+        <item>Dribble speed</item>
+        <item>Final Ball</item>
+        <item>Vision</item>
+        <item>Penetration</item>
+        <item>Work Rate</item>
+        <item>Intercepting</item>
+        <item>Physical Strength</item>
+        <item>Covering</item>
+        <item>Strength in the Air</item>
+        <item>Long-ball Accuracy</item>
+        <item>Speed e Agility</item>
+        <item>Free Kick</item>
+        <item>Corner Kick</item>
+        <item>Penalties</item>
+        <item>Attacking Prowess</item>
+        <item>Ball Control</item>
+        <item>Dribbling</item>
+        <item>Low Pass</item>
+        <item>Lofted Pass</item>
+        <item>Finishing</item>
+        <item>Place Kicking</item>
+        <item>Swerve</item>
+        <item>Header</item>
+        <item>Defensive Prowess</item>
+        <item>Ball Winning</item>
+        <item>Kicking Power</item>
+        <item>Speed</item>
+        <item>Explosive Power</item>
+        <item>Body Balance</item>
+        <item>Jump</item>
+        <item>Stamina</item>
+        <item>Goalkeeping</item>
+        <item>Saving</item>
+        <item>Form</item>
+        <item>Injury Resistance</item>
+        <item>Weak Foot Usage</item>
+        <item>Weak Foot Accuracy</item>
+        <item>Overall Rating</item>
+    </string-array>
+    <string-array name="groupvalori">
+        <item>valori</item>
+        <item>stili di gioco</item>
+        <item>abilità dei giocatori</item>
+        <item>stili di gioco del COM</item>
+    </string-array>
+
+    <string name="title_activity_dati_carriera">DatiCarrieraActivity</string>
+    <string name="daticarriera">Dati Carriera</string>
+    <string name="title_activity_palmares">PalmaresActivity</string>
+    <string name="title_activity_biografia">BiografiaActivity</string>
+    <string name="title_activity_contratto">ContrattoActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_web_view_news">WebViewNewsActivity</string>
+
+</resources>

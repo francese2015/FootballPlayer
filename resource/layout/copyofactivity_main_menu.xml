@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainMenu" >
+
+    <Button
+        android:id="@+id/profilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/profilo" />
+
+    <Button
+        android:id="@+id/valori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/profilo"
+        android:text="@string/valori" />
+
+    <Button
+        android:id="@+id/biografia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/valori"
+        android:text="@string/biografia" />
+
+    <Button
+        android:id="@+id/daticontrattuali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/biografia"
+        android:text="@string/daticontrattuali" />
+
+    <Button
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/daticontrattuali"
+        android:text="@string/video" />
+
+    <Button
+        android:id="@+id/daticarriera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/video"
+        android:layout_below="@+id/video"
+        android:text="@string/daticarriera" />
+    
+    <Button
+        android:id="@+id/palmares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/daticarriera"
+        android:layout_below="@+id/daticarriera"
+        android:text="@string/palmares" />
+
+        <Button
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/palmares"
+        android:layout_below="@+id/palmares"
+        android:text="@string/news" />
+    
+</RelativeLayout>
