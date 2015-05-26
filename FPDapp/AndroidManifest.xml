@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gadsoccer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfiloGiocatore"
+            android:label="@string/title_activity_profilo_giocatore" >
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name=".ValoriActivity"
+            android:label="@string/title_activity_valori" >
+        </activity>
+        <activity
+            android:name=".DatiCarrieraActivity"
+            android:label="@string/title_activity_dati_carriera" >
+        </activity>
+        <activity
+            android:name=".PalmaresActivity"
+            android:label="@string/title_activity_palmares" >
+        </activity>
+        <activity
+            android:name=".BiografiaActivity"
+            android:label="@string/title_activity_biografia" >
+        </activity>
+        <activity
+            android:name=".ContrattoActivity"
+            android:label="@string/title_activity_contratto" >
+        </activity>
+        <activity
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".WebViewNewsActivity"
+            android:label="@string/title_activity_web_view_news" >
+        </activity>
+    </application>
+
+</manifest>
